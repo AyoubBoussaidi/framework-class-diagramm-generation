@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Classe extends Entite{
+
     private List<Attribut> attributs;
     private List<Methode> methodes;
 
