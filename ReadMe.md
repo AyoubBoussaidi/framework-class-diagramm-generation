@@ -19,3 +19,4 @@ Heritage :
 5. La logique du genration du code avec le pattern strategy :
 ![img_11.png](img_11.png)
 ![img_12.png](img_12.png)
+6. 
