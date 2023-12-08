@@ -16,7 +16,6 @@ public class ClassDiagram {
         this.entites = new ArrayList<>();
         this.relations = new ArrayList<>();
     }
-
     public void ajouterEntite(Entite entite) {
         entites.add(entite);
     }
@@ -30,10 +29,9 @@ public class ClassDiagram {
             strategie.generateCode(entites,relations);
         }
     }
-
     public void exporterDiagramme(DiagramExporter exporter) {
         for (Entite entite : entites) {
-            exporter.exportDiagram(entite);
+            exporter.exportDiagram(entites,relations);
         }
     }
 

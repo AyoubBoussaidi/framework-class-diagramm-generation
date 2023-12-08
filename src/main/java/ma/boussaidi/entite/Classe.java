@@ -10,7 +10,6 @@ public class Classe extends Entite{
 
     private List<Attribut> attributs;
     private List<Methode> methodes;
-
     private boolean estAbstraite;
     private boolean estStatique;
 

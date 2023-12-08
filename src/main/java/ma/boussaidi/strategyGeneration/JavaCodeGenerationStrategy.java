@@ -9,7 +9,6 @@ import java.util.List;
 
 public class JavaCodeGenerationStrategy implements CodeGenerationStrategy{
 
-
     @Override
     public void generateCode(List<Entite> entites, List<Relation> relations) {
 
